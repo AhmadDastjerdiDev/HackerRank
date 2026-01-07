@@ -1,8 +1,7 @@
 import java.util.Scanner;
 import java.util.regex.*;
 
-public class Solution
-{
+public class Solution{
 	public static void main(String[] args){
 		Scanner in = new Scanner(System.in);
 		int testCases = Integer.parseInt(in.nextLine());
@@ -12,7 +11,6 @@ public class Solution
             try{
                 Pattern.compile(pattern);
                 System.out.println("Valid");
-                
             }
             catch(PatternSyntaxException exception){
                 System.out.println("Invalid");

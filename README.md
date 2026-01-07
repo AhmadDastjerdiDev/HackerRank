@@ -1,2 +1,2 @@
 # HackerRank
-Improving my problem solving ability
+Improving my problem solving skill
